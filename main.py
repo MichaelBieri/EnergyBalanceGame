@@ -5,12 +5,13 @@
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 import pygame
+import tkinter as tk
 
 pygame.init()
 
 window_width = 1200
-window_height = 1000
-window = pygame.display.set_mode((window_width, window_width))
+window_height = 600
+window = pygame.display.set_mode((window_width, window_height))
 
 running = True
 while running:
@@ -20,7 +21,7 @@ while running:
         elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
             running = False
 
-    window.fill(25, 25, 25)
+    window.fill((25, 25, 25))
     pygame.display.update()
 
 pygame.quit()
