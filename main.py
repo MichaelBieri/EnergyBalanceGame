@@ -2,30 +2,39 @@
 # MichaelBieri, Mai 2024
 
 import pygame
-import tkinter as tk
+import random
+import sys
+
+# Screen dimensions
+SCREEN_WIDTH = 1200
+SCREEN_HEIGHT = 600
+
 class Game:
     def __init__(self):
         pygame.init()
-        self.window_width = 1200
-        self.window_height = 600
-        self.window = pygame.display.set_mode((self.window_width, self.window_height))
-        pygame.display.set_caption(("EnergyBalanceGame"))
+        self.window = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+        pygame.display.set_caption("EnergyBalanceGame")
         self.clock = pygame.time.Clock()
-        self.run()
+        self.running = True
 
     def run(self):
-        running = True
-        while running:
-            for event in pygame.event.get():
-                if event.type == pygame.QUIT:
-                    running = False
-                if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
-                    running = False
+        while self.running:
+            self.events()
+            self.clock.tick(60)
 
-            self.delta_time = self.clock.tick(60) / 1000
-            self.window.fill((50, 50, 25)) # Farbe Hintergrund
-            pygame.display.update()
+    def events(self):
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                self.running = False
+            if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
+                self.running = False
 
-        pygame.quit()
+        self.delta_time = self.clock.tick(60) / 1000 # 60 pic/s
+        self.window.fill((50, 50, 25))  # background color
+        pygame.display.update()
 
-game = Game()
+# Main program
+if __name__ == "__main__":
+    game = Game()
+    game.run()
+    pygame.quit()
