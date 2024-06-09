@@ -4,7 +4,7 @@
 import pygame
 import sys
 
-relative_position = (0.5, 0.5)  # Ratio of the image position to the relative window size (x, y as a percentage)
+relative_position = (0.2, 0.8)  # Ratio of the image position to the relative window size (x, y as a percentage)
 
 class Game:
     def __init__(self):
