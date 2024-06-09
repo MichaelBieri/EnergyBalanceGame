@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c97c751-da91-4a87-91bb-701e606d2618" name="Changes" comment="next class">
-      <change afterPath="$PROJECT_DIR$/EnergyIcons.py" afterDir="false" />
+    <list default="true" id="8c97c751-da91-4a87-91bb-701e606d2618" name="Changes" comment="Class icon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyIcons.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnergyIcons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717963051238</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Class icon">
+      <option name="closed" value="true" />
+      <created>1717964688322</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717964688322</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +193,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="next" />
     <MESSAGE value="next class" />
-    <option name="LAST_COMMIT_MESSAGE" value="next class" />
+    <MESSAGE value="Class icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class icon" />
   </component>
 </project>
