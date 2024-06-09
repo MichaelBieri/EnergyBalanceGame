@@ -1,5 +1,7 @@
 import pygame
 
+start_time, end_time = 0, 0
+
 class ReactionTime:
     def __init__(self, game):
         self.game = game
