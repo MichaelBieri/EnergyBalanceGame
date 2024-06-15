@@ -1,7 +1,6 @@
-### A BalanceGame with funny effect and reaction time measurement
+# A BalanceGame with funny effect and reaction time measurement
+The player must maintain a balance between power consumption and power production. The generated power values are constantly changing. The player can increase or decrease the production using keyboard keys to ensure the overall balance is correct.
+
 ## How it work?
-# Idee1: Es kommen begriffe, Zeichen und Fragen von oben nach unten und man muss es dem richtigen Feld zuordnen.
-# Wer in einer bestimmten Zeit mehr Punkte gesammelt hat gewinnt
-# Idee2: Reaktion: Es kommt ein Symbol irgendwo und man muss so schnell wie möglich den richtigen Button drücken.
-# Idee2: Es kommt Symbole Temperatur, Tageszeit, Wind, und Wolken und mann muss muss den Symbolen und einer Waage
-# alles ausgleichen.
+Alternative idea:
+Questions, words coming down to to down. The user have to match with the correct field.
