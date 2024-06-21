@@ -1,5 +1,5 @@
 # EnergyBalanceGame
-# MichaelBieri, Mai 2024
+# MichaelBieri, June 2024
 
 import threading
 from welcome_window import WelcomeWindow
